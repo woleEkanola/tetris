@@ -1,0 +1,9 @@
+const canva = document.getElementById('tetris')
+const pixel = 50
+const ctx = canva.getContext('2d')
+canvas.width = 800
+canvas.height = 500
+let level = 1
+let speed = 10
+let frame = 0
+let score = 0
